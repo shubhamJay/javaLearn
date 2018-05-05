@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RoverMotionControllerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-04-14T11:41:19" hostname="in-shubhaj.local" time="1.957">
+  <properties/>
+  <testcase name="shouldTurnRightOfNorth" classname="RoverMotionControllerTest" time="1.948"/>
+  <testcase name="shouldEvaluateMultipleInstructionAtTheSameTime" classname="RoverMotionControllerTest" time="0.002"/>
+  <testcase name="shouldTurnLeftOfNorth" classname="RoverMotionControllerTest" time="0.004"/>
+  <testcase name="shouldMoveTheRoverBy1UnitWhenInstructionIsMove" classname="RoverMotionControllerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

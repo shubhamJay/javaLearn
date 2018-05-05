@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/balleria.iml" filepath="$PROJECT_DIR$/.idea/modules/balleria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/balleria_main.iml" filepath="$PROJECT_DIR$/.idea/modules/balleria_main.iml" group="balleria" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/balleria_test.iml" filepath="$PROJECT_DIR$/.idea/modules/balleria_test.iml" group="balleria" />
+    </modules>
+  </component>
+</project>

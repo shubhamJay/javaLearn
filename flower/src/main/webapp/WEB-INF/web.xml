@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>loginManager</servlet-name>
+        <servlet-class>com.step.LoginManager</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>manageComments</servlet-name>
+        <servlet-class>com.step.CommentsManager</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>loginManager</servlet-name>
+        <url-pattern>/logIn</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>manageComments</servlet-name>
+        <url-pattern>/comment/</url-pattern>
+    </servlet-mapping>
+
+
+    <!--<servlet>-->
+        <!--<servlet-name>book</servlet-name>-->
+        <!--<servlet-class>com.step.StaticFileServlet</servlet-class>-->
+    <!--</servlet>-->
+
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>book</servlet-name>-->
+        <!--<url-pattern>/guestBook.jsp</url-pattern>-->
+    <!--</servlet-mapping>-->
+
+</web-app>

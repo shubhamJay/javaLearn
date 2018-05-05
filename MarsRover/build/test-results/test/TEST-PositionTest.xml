@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PositionTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-04-14T11:41:19" hostname="in-shubhaj.local" time="0.01">
+  <properties/>
+  <testcase name="shouldGiveCoordinatesInSpaceSeparatedFormat" classname="PositionTest" time="0.003"/>
+  <testcase name="PositionsWithSameCoOrdinatesShouldBeEqual" classname="PositionTest" time="0.001"/>
+  <testcase name="shouldGiveNewPositionAfterAddingGivenCoOrdinates" classname="PositionTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
